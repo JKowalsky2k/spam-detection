@@ -9,7 +9,7 @@ model_name = "all-MiniLM-L6-v2"
 
 model = SentenceTransformer(model_name)
 
-enron_csv_df = pandas.read_csv("enron1.csv")
+enron_csv_df = pandas.read_csv("enron2csv.csv")
 print(enron_csv_df.head(n=1)) 
 
 transformed_data = []

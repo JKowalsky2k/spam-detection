@@ -19,4 +19,4 @@ print(df.head(n=5))
 print(df.shape)
 print(df["Class"].value_counts())
 
-df.to_csv('enron1.csv', index=False)
+df.to_csv('enron2csv.csv', index=False)
